@@ -1,0 +1,314 @@
+
+
+h1 {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    background: red;
+    padding: 10px;
+}
+
+p{
+    font-size: 30px;
+}
+
+
+
+
+
+
+header {  
+    background-color: orangered; 
+    position: fixed;  
+    left: 0;  
+    right: 0;  
+    top: 2px;  
+    height: 42px;  
+    display: flex;  
+    align-items: center;  
+    box-shadow: 0 0 25px 0 black;  
+    }  
+    header * {  
+    display: inline;  
+    }  
+    header li {
+        margin: 20px;
+        background: red;
+        display: inline-block;
+        padding: 8px;
+        border-radius: 5px;
+    }
+    header li a {  
+    color: #fff;  
+    text-decoration: none;  
+    cursor: pointer;
+    }  
+
+    a:hover{
+        background-color: #fff;
+        padding: 10px;
+        color: red;
+    }
+
+
+    ul {
+        padding-left: 15px !important;
+    }
+
+#headLine {
+    background: #ddd;
+    color: red;
+    padding: 2px;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+#marhala3{
+   
+    background: beige;
+    padding: 20px;
+    
+}
+
+
+
+
+.fastUl {
+    list-style:bengali;
+    font-size:20px;
+    margin-top: -20px;
+
+};
+
+
+
+.secondUl{
+
+    list-style:bengali;
+    font-size:20px;
+    margin-top: -20px;
+
+}
+
+
+
+.thirdUl{
+    list-style: disclosure-closed;
+    font-size: 17px;
+    margin-top: -20px;
+}
+
+
+/*///////footer////////////*/
+
+
+footer{
+    background: #25262e;
+}
+
+footer p{
+    color:#ddd;
+}
+.copyright {
+  padding: 0.3em 1em;
+    background: #25262e;
+    background: #25262e;
+    background-color:#25262e
+    ;
+}
+.footer-menu{
+  float: left;
+    margin-top: 10px;
+}
+
+.footer-menu a{
+  color: #cfd2d6;
+  padding: 6px;
+
+  text-decoration: none;
+}
+.footer-menu a:hover{
+  color: #27bcda;
+}
+.copyright p {
+  font-size: 0.9em;
+  text-align: right;
+  color:
+}
+@media screen and (max-width: 850px) {
+  .row.primary {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+
+
+/*Responcive*/
+
+
+
+
+
+@media (max-width:480px) {
+    p{
+        color:red;
+        
+    }
+    header {  
+        
+        background-color: orangered;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 3px;
+        height: 45px;
+        display: inline;
+        align-items: center;
+        box-shadow: 0 0 25px 0 black;
+        border-radius: 5px 5px 0px 0px;
+    }
+         
+
+        header * {  
+        display: inline;  
+        }  
+
+        header li {  
+        margin: 0px;
+        line-height: 45px; 
+        padding: 0; 
+        }  
+
+        header li a {  
+        color: white;  
+        text-decoration: none;  
+        cursor: pointer;
+
+        background: red;
+        padding: 8px;
+        margin: 10px 10px 10px 10px;
+        border-radius: 5px;
+
+        }  
+
+        #headLine{
+            background: #ddd;
+            color: red;
+            padding: 10px;
+            font-size: 25px;
+            margin-top: 0;
+            
+        }
+
+        .liNev4{
+            display: none;
+        }
+
+
+        .section1{
+            background-color: orangered;
+            height: 46px;
+            margin-top: 48px;
+            border-radius: 0px 0px 5px 5px;
+        }
+
+        .section1 div span{
+            margin-top: 12px;
+            display: inline-block;
+        }
+
+        .section1 div span a{
+            text-decoration: none;
+            color: #fff;
+            background: red;
+            padding: 8px;
+            margin: 25px;
+            border-radius: 5px;
+
+        
+        }
+
+        .hederDivLi{
+            
+        }
+
+        .section1 div span a:hover{
+            background-color: #fff;
+            color: blue;
+            
+        }
+    
+}
+
+
+@media (max-width:370px){
+    
+    .section1 div span a {
+        text-decoration: none;
+        color: #fff;
+        background: red;
+        padding: 8px;
+        margin: 15px;
+        border-radius: 5px;
+    }
+
+    header li{
+        padding: 0;
+    }
+}
+
+@media (max-width:316px){
+    .section1 div span a {
+        text-decoration: none;
+        color: #fff;
+        background: red;
+        padding: 8px;
+        margin: 10px;
+        border-radius: 5px;
+    }
+
+    header li {
+        padding: 0;
+    }
+}
+
+
+@media (max-width:290px){
+
+    header li {
+        margin: 0px;
+        background: red;
+        display: inline-block;
+        padding: 0px;
+        border-radius: 5px;
+    }
+
+    header li a {
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+        background: red;
+        padding: 0px;
+        margin: 5px;
+        border-radius: 5px;
+    }
+
+    .section1 div span a {
+        text-decoration: none;
+        color: #fff;
+        background: red;
+        padding: 8px;
+        margin: 9px;
+        border-radius: 5px;
+    }
+
+    #headLine {
+        background: #ddd;
+        color: red;
+        padding: 0px;
+        font-size: 25px;
+        margin-top: 0;
+    }
+}
+
